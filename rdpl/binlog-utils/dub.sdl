@@ -1,0 +1,32 @@
+name "binlog-utils"
+description "A minimal D application."
+copyright "Copyright © 2016, drug"
+authors "drug"
+
+dependency "rdpl:simargl" version="~>0.0.3"
+dependency "rdpl:core" version="~>0.0.3"
+
+configuration "default" {
+	
+}
+
+configuration "client" {
+	targetPath  "bin"
+	targetType  "executable"
+	targetName  "client"
+	sourcePaths "client"
+}
+
+configuration "server" {
+	targetPath  "bin"
+	targetType  "executable"
+	targetName  "server"
+	sourcePaths "server"
+}
+
+configuration "testMsgpack" {
+	targetPath  "bin"
+    targetType  "executable"
+    targetName  "test-msgpack"
+    sourcePaths "testmsgpack"
+}

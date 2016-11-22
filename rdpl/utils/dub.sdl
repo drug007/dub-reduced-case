@@ -1,0 +1,20 @@
+name "utils"
+description "A minimal D application."
+copyright "Copyright © 2015, drug"
+authors "drug"
+
+dependency "rdpl:core" version="~>0.0.3"
+
+targetPath  "bin"
+
+configuration "filter" {
+    targetType  "executable"
+    targetName  "filter"
+    sourceFiles "filter/app.d"
+}
+
+configuration "count" {
+    targetType  "executable"
+    targetName  "count"
+    sourceFiles "count/app.d"
+}

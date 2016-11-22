@@ -1,0 +1,24 @@
+name "timespatial"
+description "Timespatial data tool."
+copyright "Copyright © 2016, drug007"
+authors "drug007"
+dependency "gfm:sdl2" version="~>6.0.0"
+dependency "gfm:math" version="~>6.0.0"
+dependency "gfm:opengl" version="~>6.0.0"
+dependency "d2sqlite3" version="~>0.9.8"
+dependency "dstats" version="~>1.0.3"
+dependency "taggedalgebraic" version="~>0.10.4"
+dependency "emsi_containers" version="~>0.5.2"
+license "BSL-1.0"
+
+targetPath "bin"
+
+configuration "lib" {
+	targetType "library"
+}
+
+configuration "demo" {
+    targetType  "executable"
+    targetName  "demoapp"
+    sourcePaths "demo"
+}

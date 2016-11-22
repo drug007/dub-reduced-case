@@ -1,0 +1,7 @@
+name "inspector"
+description "A minimal D application."
+authors "drug"
+copyright "Copyright © 2016, drug007"
+dependency "timespatial" version="~>master" path="../../timespatial/"
+dependency "rdpl:core" version="~>0.0.3"
+targetName  "inspector"

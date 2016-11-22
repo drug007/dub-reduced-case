@@ -1,0 +1,33 @@
+{
+    "name": "service",
+    "copyright": "Copyright © 2014-2016, drug",
+    "authors": ["drug"],
+    "targetName": "service",
+    "targetType": "executable",
+    "importPaths": [
+    ],
+    "stringImportPaths": [
+        "../service",
+    ],
+    "dependencies":
+    {
+        "rdpl:core": "~>0.0.3",
+    },
+    "configurations": [
+        {
+            "name": "domain-dbg",
+            "versions": [
+                "domainDebug",
+            ],
+            "dependencies":
+            {
+                "dhdf5-simple": "~>0.0.4",
+            }
+        },
+        {
+            "name": "normal",
+            "versions": [
+            ],
+        },
+    ],
+}

@@ -1,0 +1,17 @@
+{
+    "name": "core",
+    "description": "A minimal D application.",
+    "copyright": "Copyright © 2014-2016, drug",
+    "authors": ["drug"],
+	"targetType": "sourceLibrary",
+    "dependencies": {
+        "colorize": ">=1.0.4",
+        "zeromq": "~>4.1.2",
+        "multi_index": ">=1.0.3",
+        "msgpack-d": "==1.0.0-beta.3",
+        "gfm:math": "~>6.1.4",
+        "taggedalgebraic": "~>0.10.1",
+        "rdpl:simargl": "~>0.0.0",
+        "rdpl:binlog": "~>0.0.0",
+    }
+}

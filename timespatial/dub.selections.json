@@ -1,0 +1,14 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"d2sqlite3": "0.9.8",
+		"derelict-gl3": "1.0.19",
+		"derelict-imgui": {"path":"DerelictImgui/"},
+		"derelict-sdl2": "1.9.7",
+		"derelict-util": "2.0.6",
+		"dstats": "1.0.3",
+		"emsi_containers": "0.5.2",
+		"gfm": "6.0.3",
+		"taggedalgebraic": "0.10.5"
+	}
+}

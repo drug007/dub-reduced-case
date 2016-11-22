@@ -1,0 +1,19 @@
+{
+    "name": "rdpl",
+    "targetType": "none",
+    "description": "radar data processing library",
+    "copyright": "Copyright © 2014-2016, drug",
+    "authors": ["drug"],
+    "homepage": "",
+    "license": "proprietary",
+    "subPackages": [
+        "core",
+        "service",
+        "test",
+        "utils",
+        "simargl",
+        "binlog",
+        "inspector",
+        "binlog-utils",
+    ],
+}

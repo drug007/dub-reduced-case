@@ -1,0 +1,12 @@
+service/.dub/
+service/dub.selections.json
+service/service
+*.o
+*.selections.json
+*.h5
+*.txt
+/.dub/
+/outfile.dat
+test_results/
+*.save
+*.ini
