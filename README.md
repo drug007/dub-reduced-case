@@ -11,4 +11,4 @@ but if in rdpl/inspector/dub.sdl comment out line 6
 //dependency "rdpl:core" version="~>0.0.3"
 ```
 then recompile dub starts satisfying the reference above. You can now uncomment line 6 and it works as expected.
-Then suddenly dub starts failing with the same error.
+if you remove rdpl/.dub folder then error appears again.
